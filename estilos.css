@@ -1,5 +1,24 @@
 p {
-  color: red;
+  color: 
+  rgba(0, 60.875728837343345, 255, 1);
   font-family: Verdana;
   font-size: 160%;
+}
+
+#demo {
+  background: yellow;
+  color: blue;
+  border: 2px solid red;
+  margin: 50px;
+}
+
+#demo2 {
+  background: yellow;
+  color: blue;
+  border: 2px solid red;
+  padding: 30px;
+}
+
+.error {
+  color: red;
 }
