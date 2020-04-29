@@ -13,3 +13,16 @@ p {
 .color-texto-rojo {
     color: red;
 }
+
+.color-fuente-amarillo {
+    background-color: yellow;
+}
+
+.color-fuente-celeste {
+    background-color: #00ffff; 
+}
+
+.color-fuente-marron {
+    background-color: rgb(153, 38, 0);
+}
+
