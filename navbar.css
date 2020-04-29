@@ -1,0 +1,36 @@
+.nav-enlace {
+    /* Muestra en linea de bloque */
+    display: inline-block;
+
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+
+    /* Para retirar el subrayado del elemento 'a' */
+    text-decoration: none;
+}
+
+/* Propiedad que queremos que cambie al colocar el cursor 
+sobre el elemento */
+.nav-enlace:hover {
+    background-color: rgb(189, 102, 32);
+}
+
+nav {
+    background-color: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Uso de media query */
+@media (max-width: 600px) {
+    nav {
+        background-color: black;
+        flex-direction: column;
+    }
+
+    .nav-enlace {
+        margin: 10px 0;
+    }
+}
