@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}
+
+.container {
+    /* colocar arriba y abajo en 0
+    colocar a los lados en automatico */
+    margin: 0 auto;
+    /* colocar un ancho de 500px */
+    /* width: 500px; */
+    /* con esto css hizo el calculo del margen de la 
+    * izq y la der. */
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+.columna {
+    background-color: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    /* margin: 10px; */
+    padding: 10px;
+    /* colocar un borde de 5px */
+    border-radius: 5px;
+    /* colocar 10 al eje 'x' e 'y' con degradado de 5px */
+    box-shadow: 10px 10px 5px #888;
+    /* width: 25%; */
+    /* incluye el padding y el borde al calculo, el 
+    * margen no esta siendo calculado automaticamente  */
+    box-sizing: border-box;
+
+    /* incluye solo el padding y el borde */
+    margin: 0 auto;
+    /* generamos el espaciado */
+    width: 23%;
+
+}
+.precio {
+    font-size: 50px;
+    color: #00dac7;
+}
+.btn-precio {
+    background-color: salmon;
+    display: block;
+    padding: 10px;
+    columns: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover {
+    background-color: rgb(250, 93, 75);
+}
+
+@media (max-width: 1070px) {
+    .columna {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .columna {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
