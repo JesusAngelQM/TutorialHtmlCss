@@ -1,0 +1,18 @@
+/* Son un elemento de linea */
+nav  {
+    background-color: #ffe8df;
+    padding: 20px;
+}
+
+/* Es un elemento de bloque */
+.columna {
+    background-color: #888888;
+    color: #f0f0f0;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+
+.padre {
+    display: flex;
+}
