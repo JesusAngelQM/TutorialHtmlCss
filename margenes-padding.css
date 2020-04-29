@@ -1,0 +1,24 @@
+h1 {
+    background-color: #dd7631;
+    /* margen izquierdo y abajo*/
+    /* margin-left: 100px;
+    margin-bottom: 200px; */
+
+    /* margen en los 4 lados */
+    /* margin: 100px; */
+
+    /* margen arriba y abajo de 100, y margen de izq y der de 200 */
+    /* margin: 100px 200px; */
+
+    /* margen de arriba=50
+    margen de der=60
+    margen de abajo=100
+    margen de izq=200 */
+    margin: 50px 60px 100px 200px;
+}
+
+p {
+    background-color: #708160;
+    /* es un margen interno */
+    padding: 50px;
+}
