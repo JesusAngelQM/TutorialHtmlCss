@@ -1,3 +1,15 @@
 p {
     background-color: red;
 }
+
+#unico {
+    background-color: blue;
+}
+
+.verde {
+    background-color: rgb(47, 156, 32);
+}
+
+.color-texto-rojo {
+    color: red;
+}
